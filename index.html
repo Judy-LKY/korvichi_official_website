@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Korvichi | Product Design, Development & Manufacturing</title>
+  <meta name="description" content="Korvichi designs and develops innovative consumer products, offering product design, OEM/ODM service, engineering development, production and global supply support." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#home"><span>K</span> Korvichi</a>
+    <nav id="nav">
+      <a href="#products">Products</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#quality">Quality</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="menu" onclick="document.body.classList.toggle('nav-open')">☰</button>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Original Design · Product Development · Global Service</p>
+        <h1>We design and develop products from idea to market.</h1>
+        <p class="hero-text">Korvichi is a product innovation brand focused on practical, modern and reliable consumer products. We provide product design, engineering development, OEM/ODM customization, production support and brand-ready solutions.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#contact">Start a Project</a>
+          <a class="btn secondary" href="#products">View Products</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="device-card large">Korvichi<br><small>Smart Product Design</small></div>
+        <div class="floating-card top">OEM / ODM</div>
+        <div class="floating-card bottom">R&D + Manufacturing</div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div><strong>Product</strong><span>Design</span></div>
+      <div><strong>Engineering</strong><span>Development</span></div>
+      <div><strong>OEM/ODM</strong><span>Service</span></div>
+      <div><strong>Global</strong><span>Supply</span></div>
+    </section>
+
+    <section id="products" class="section">
+      <div class="section-head">
+        <p class="eyebrow">Our Products</p>
+        <h2>Designed for everyday use, built for modern life.</h2>
+      </div>
+      <div class="grid cards">
+        <article class="card">
+          <div class="icon">✍️</div>
+          <h3>LCD Writing Tablets</h3>
+          <p>Lightweight writing and drawing boards for kids, office notes, travel and education.</p>
+        </article>
+        <article class="card">
+          <div class="icon">🧒</div>
+          <h3>Kids Educational Products</h3>
+          <p>Creative products that support learning, drawing, interaction and family use.</p>
+        </article>
+        <article class="card">
+          <div class="icon">💡</div>
+          <h3>Innovative Consumer Goods</h3>
+          <p>Original product concepts developed for home, travel, gifting and retail markets.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="services" class="section dark">
+      <div class="section-head">
+        <p class="eyebrow">Company Services</p>
+        <h2>From concept sketch to finished product.</h2>
+      </div>
+      <div class="service-list">
+        <div><span>01</span><h3>Product Design</h3><p>Market research, product concept, appearance design and structure planning.</p></div>
+        <div><span>02</span><h3>Engineering Development</h3><p>Electronics, structure, material selection, prototype and functional testing.</p></div>
+        <div><span>03</span><h3>OEM / ODM Customization</h3><p>Logo, packaging, color, feature customization and private label solutions.</p></div>
+        <div><span>04</span><h3>Production Support</h3><p>Mass production coordination, quality inspection, packaging and shipping support.</p></div>
+      </div>
+    </section>
+
+    <section id="about" class="section split">
+      <div>
+        <p class="eyebrow">About Korvichi</p>
+        <h2>A product brand with design and development at its core.</h2>
+      </div>
+      <div>
+        <p>Korvichi creates products with a focus on useful function, clean design and reliable quality. Our goal is to help customers turn ideas into finished products that are ready for retail, e-commerce and international markets.</p>
+        <p>We work with partners who need original design, fast development, flexible customization and stable production support.</p>
+      </div>
+    </section>
+
+    <section id="quality" class="section quality">
+      <div class="section-head">
+        <p class="eyebrow">Why Choose Us</p>
+        <h2>Professional development, practical innovation, reliable delivery.</h2>
+      </div>
+      <div class="grid four">
+        <div><h3>Original Ideas</h3><p>We create and improve products based on real user needs.</p></div>
+        <div><h3>Fast Response</h3><p>Clear communication and efficient project coordination.</p></div>
+        <div><h3>Quality Control</h3><p>Attention to materials, function, packaging and final inspection.</p></div>
+        <div><h3>Brand Support</h3><p>Suitable for Amazon, retail, distributors and private label customers.</p></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div>
+        <p class="eyebrow">Contact Us</p>
+        <h2>Ready to create your next product?</h2>
+        <p>Tell us about your product idea, customization request or cooperation plan.</p>
+      </div>
+      <form onsubmit="event.preventDefault(); alert('Thank you. Please connect this form to your business email service.');">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <input type="text" placeholder="Company / Product Interest">
+        <textarea placeholder="Message" rows="5"></textarea>
+        <button class="btn primary" type="submit">Send Inquiry</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div><strong>Korvichi</strong><p>Product Design · Development · OEM/ODM</p></div>
+    <div><p>Website: www.korvichi.com</p><p>Email: contact@korvichi.com</p></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
