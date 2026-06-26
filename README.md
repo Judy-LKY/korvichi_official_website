@@ -1,5 +1,12 @@
-# Korvichi Website V9
+# Korvichi Official Website V10
 
-V9 adds Inquiry, Download Center, News Center, three news detail pages, homepage CTA improvements, and updated sitemap/navigation.
+V10 focuses on visual polish and mobile optimization:
 
-Upload all files and the assets folder to the GitHub repository root, then commit changes.
+- Premium homepage hero styling
+- Improved navigation hover effects
+- Enhanced product cards and page cards
+- Better mobile layout
+- Stronger CTA and inquiry presentation
+- Updated shadows, spacing, and brand visual consistency
+
+Upload all files and the `assets` folder to the GitHub repository root, then commit changes.
