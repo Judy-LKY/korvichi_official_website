@@ -1,9 +1,5 @@
-# Korvichi Website V5
+# Korvichi Website V6
 
-Updated modules:
-- Products page (`products.html`)
-- LED Glow Drawing Board detail page
-- Acrylic Coffee Capsule Drawer detail page
-- Navigation updated to Products page
+This version adds OEM & ODM, Factory, Certifications, and Contact pages.
 
-Upload all files and the assets folder to the GitHub repository root. Keep/replace CNAME as `www.korvichi.com`.
+Upload all files and the assets folder to the GitHub repository root. Keep CNAME for www.korvichi.com.
