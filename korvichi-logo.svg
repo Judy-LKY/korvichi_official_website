@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 120" role="img" aria-labelledby="title desc">
+<title id="title">Korvichi Logo</title><desc id="desc">Korvichi wordmark with modern K icon.</desc>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1267ff"/><stop offset="1" stop-color="#29a7ff"/></linearGradient></defs>
+<rect x="8" y="12" width="96" height="96" rx="24" fill="url(#g)"/>
+<path d="M36 32h16v28l28-28h22L66 67l38 41H82L52 75v33H36V32z" fill="#fff"/>
+<text x="126" y="66" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="900" fill="#07111f" letter-spacing="2">KORVICHI</text>
+<text x="129" y="94" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#1267ff" letter-spacing="3">INNOVATIVE PRODUCTS • BETTER LIFE</text>
+</svg>
