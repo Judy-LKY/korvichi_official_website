@@ -1,12 +1,5 @@
-# Korvichi Official Website V10
+# Korvichi Website V11
 
-V10 focuses on visual polish and mobile optimization:
+SEO deep optimization version. Includes structured data, product schema, Open Graph, Twitter cards, updated sitemap, robots.txt and improved metadata for all major pages.
 
-- Premium homepage hero styling
-- Improved navigation hover effects
-- Enhanced product cards and page cards
-- Better mobile layout
-- Stronger CTA and inquiry presentation
-- Updated shadows, spacing, and brand visual consistency
-
-Upload all files and the `assets` folder to the GitHub repository root, then commit changes.
+Upload all files and the assets folder to the GitHub repository root.

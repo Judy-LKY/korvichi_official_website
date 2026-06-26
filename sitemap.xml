@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.korvichi.com/</loc></url>
-  <url><loc>https://www.korvichi.com/about.html</loc></url>
-  <url><loc>https://www.korvichi.com/products.html</loc></url>
-  <url><loc>https://www.korvichi.com/product-led-drawing-board.html</loc></url>
-  <url><loc>https://www.korvichi.com/product-coffee-capsule-drawer.html</loc></url>
-  <url><loc>https://www.korvichi.com/oem-odm.html</loc></url>
-  <url><loc>https://www.korvichi.com/factory.html</loc></url>
-  <url><loc>https://www.korvichi.com/certifications.html</loc></url>
-  <url><loc>https://www.korvichi.com/contact.html</loc></url>
-  <url><loc>https://www.korvichi.com/catalog.html</loc></url>
-  <url><loc>https://www.korvichi.com/zh.html</loc></url>
-  <url><loc>https://www.korvichi.com/news.html</loc></url>
-  <url><loc>https://www.korvichi.com/downloads.html</loc></url>
-  <url><loc>https://www.korvichi.com/inquiry.html</loc></url>
-  <url><loc>https://www.korvichi.com/news-led-glow-drawing-board.html</loc></url>
-  <url><loc>https://www.korvichi.com/news-coffee-capsule-drawer.html</loc></url>
-  <url><loc>https://www.korvichi.com/news-oem-odm-capability.html</loc></url>
+  <url><loc>https://www.korvichi.com/about.html</loc><lastmod>2026-06-26</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.korvichi.com/catalog.html</loc><lastmod>2026-06-26</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.korvichi.com/certifications.html</loc><lastmod>2026-06-26</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.korvichi.com/contact.html</loc><lastmod>2026-06-26</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.korvichi.com/downloads.html</loc><lastmod>2026-06-26</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.korvichi.com/factory.html</loc><lastmod>2026-06-26</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.korvichi.com/</loc><lastmod>2026-06-26</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://www.korvichi.com/inquiry.html</loc><lastmod>2026-06-26</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.korvichi.com/news-coffee-capsule-drawer.html</loc><lastmod>2026-06-26</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.korvichi.com/news-led-glow-drawing-board.html</loc><lastmod>2026-06-26</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.korvichi.com/news-oem-odm-capability.html</loc><lastmod>2026-06-26</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.korvichi.com/news.html</loc><lastmod>2026-06-26</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.korvichi.com/oem-odm.html</loc><lastmod>2026-06-26</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.korvichi.com/product-coffee-capsule-drawer.html</loc><lastmod>2026-06-26</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.korvichi.com/product-led-drawing-board.html</loc><lastmod>2026-06-26</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.korvichi.com/products.html</loc><lastmod>2026-06-26</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.korvichi.com/zh.html</loc><lastmod>2026-06-26</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
 </urlset>
