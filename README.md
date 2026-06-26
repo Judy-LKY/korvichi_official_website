@@ -1,10 +1,11 @@
-Korvichi Website V7
+# Korvichi Official Website V8
 
-Updates:
-- Added official Korvichi SVG logo and favicon
-- Added SEO files: sitemap.xml and robots.txt
-- Added 404 page
-- Added floating WhatsApp inquiry button
-- Updated navigation branding across all pages
+V8 includes all V7 features plus:
 
-Upload all files and the assets folder to the GitHub repository root. Keep CNAME as www.korvichi.com.
+- Digital Catalog page: `catalog.html`
+- Chinese landing page: `zh.html`
+- Updated navigation with Catalog and Chinese switch
+- Improved buyer information section
+- Updated sitemap for SEO
+
+Upload all files and the `assets` folder to the GitHub repository root.
