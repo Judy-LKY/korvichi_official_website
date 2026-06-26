@@ -1,0 +1,72 @@
+backend:
+  name: github
+  repo: Judy-LKY/korvichi_official_website
+  branch: main
+
+media_folder: "uploads"
+public_folder: "/uploads"
+
+site_url: "https://www.korvichi.com"
+display_url: "https://www.korvichi.com"
+logo_url: "/led-glow-drawing-board.png"
+
+collections:
+  - name: "pages"
+    label: "Website Pages"
+    files:
+      - label: "Home Page"
+        name: "home"
+        file: "content/home.md"
+        fields:
+          - { label: "Hero Title", name: "hero_title", widget: "string" }
+          - { label: "Hero Subtitle", name: "hero_subtitle", widget: "text" }
+          - { label: "Primary Button Text", name: "primary_button", widget: "string", required: false }
+          - { label: "Secondary Button Text", name: "secondary_button", widget: "string", required: false }
+          - { label: "Hero Image", name: "hero_image", widget: "image", required: false }
+          - { label: "Body", name: "body", widget: "markdown", required: false }
+      - label: "About Us"
+        name: "about"
+        file: "content/about.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Founded Year", name: "founded", widget: "string" }
+          - { label: "Employees", name: "employees", widget: "string" }
+          - { label: "Factory Area", name: "factory_area", widget: "string" }
+          - { label: "Monthly Capacity", name: "monthly_capacity", widget: "string" }
+          - { label: "Main Markets", name: "markets", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Contact"
+        name: "contact"
+        file: "content/contact.md"
+        fields:
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "WhatsApp", name: "whatsapp", widget: "string" }
+          - { label: "Business Hours", name: "business_hours", widget: "string", required: false }
+          - { label: "Address", name: "address", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "products"
+    label: "Products"
+    folder: "content/products"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Product Name", name: "title", widget: "string" }
+      - { label: "Category", name: "category", widget: "select", options: ["Consumer Electronics", "Home Organization", "Kitchen Storage", "New Arrivals"] }
+      - { label: "Main Image", name: "image", widget: "image" }
+      - { label: "Short Description", name: "description", widget: "text" }
+      - { label: "Features", name: "features", widget: "list", field: { label: "Feature", name: "feature", widget: "string" } }
+      - { label: "Specifications", name: "specifications", widget: "list", required: false, fields: [{label: "Name", name: "name", widget: "string"}, {label: "Value", name: "value", widget: "string"}] }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "news"
+    label: "News"
+    folder: "content/news"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Cover Image", name: "image", widget: "image", required: false }
+      - { label: "Summary", name: "summary", widget: "text" }
+      - { label: "Body", name: "body", widget: "markdown" }
